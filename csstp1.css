@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu {
+    background-color: grey;
+    font-size: 18px;
+    font-weight: bold;
+    padding:5px 10px;
+    
+}
+nav li {
+    position: relative;
+    display:inline-block;
+    margin: .5rem;
+    }
