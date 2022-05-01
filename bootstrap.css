@@ -1,34 +1,34 @@
 * {
-   
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 nav div {
-    margenes en los costados 
+margin-right: 1rem;
+margin-left: 1rem;
 }
 #linkverde {
     
-    color: green
-    }
+  color: green
+  }
 .card-img {
-            opacity: 0.4;
-          display: block;
+  opacity: 0.4;
+  display: block;
   width: 100%;
   height: auto;
 }
 .card-title { 
- font-size: 40px;
 
- position: absolute;
+  font-size: 40px;
+  position: static;
   top: 45%;
   left: 50%; 
- text-align: right;
-margin-b: 1rem;
-}
+  text-align: right;
+  }
 
 .card-text {  
-margin-right: 6rem;
-position: absolute;
+  margin-right: 6rem;
+  position: static;
   top: 50%;
   left: 50%; 
-text-align: right; }
+  text-align: right; 
+}
