@@ -3,18 +3,18 @@
     font-family: 'Roboto', sans-serif;
 }
 nav div {
-margin-right: 1rem;
-margin-left: 1rem;
+margin: 2px 5% 0 auto;
 }
+#logo {
+  margin-left: 5%;
+  }
 #linkverde {
     
   color: green
   }
 .card-img {
   opacity: 0.4;
-  display: block;
-  width: 100%;
-  height: auto;
+
 }
 .card-title { 
 
