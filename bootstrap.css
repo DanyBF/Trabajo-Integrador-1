@@ -89,3 +89,19 @@ border-color: rgb(41, 168, 68);
   border-color: rgb(23,162,185);
 
 }
+#Grey { 
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(109,116,126);
+  border-color: rgb(109,116,126);
+
+}
+#Red { 
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(221,53,68);
+  border-color: rgb(221,53,68);
+
+}
