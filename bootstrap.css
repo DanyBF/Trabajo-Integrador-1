@@ -16,28 +16,34 @@ margin: 2px 5% 0 auto;
   opacity: 0.4;
   max-width: 100%;
   height: auto;
-  
-}
-.card-title { 
+  }
+.card-img-overlay .card-title { 
 
   font-size: 2rem;
   font-weight: 600;
   display:block; 
   padding-top: 20%;
   padding-right: 6rem;
-  text-align: right;
-;
-  
-  
+  text-align: right;  
   }
 
-.card-text {  
+.card-img-overlay .card-text {  
 
-  display:block; 
+ display:block; 
  padding-right: 6rem;
  padding-left: 50%;
  text-align: right;
- 
-
-
+ }
+#titulo {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: small
+}
+#tituloCard {
+font-size: xx-large;
+font-weight: 700;
+}
+#oradores {
+  font-size: x-large;
+  font-weight: bolder;
 }
