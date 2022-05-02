@@ -49,24 +49,57 @@ font-weight: 700;
   
   margin: 0 8em 0 8em;
 }
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1080px)  {
+    a.navbar-brand {
+      font-size: 2vh;
+      text-align: center;
+    }
+  }
+@media screen and (max-width: 1080px)  {
+   #logo {
+    width: 15%;
+    height: 15%;
+    }
+  }
+  @media screen and (max-width: 1080px)  {
+    button#list.navbar-toggler {
+     width: 10%;
+     height: 10%;
+     }
+   }
+@media screen and (max-width: 1080px)  {
  #cardsOradores {
   margin: 1em;
  }
 }
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1080px)  {
   .card-img-overlay .card-text {
     font-size: small;
-    padding: 1%;
+    padding: 0;
     text-align: center;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .card-img-overlay .card-title {
     font-size:medium;
-    padding: 1%;
+    padding: 0;
     text-align: center;
   }
+}
+@media screen and (max-width: 1080px) {
+    button.btn.btn-outline-light {
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    }
+}
+@media screen and (max-width: 1080px) {
+    button.btn.btn-success {
+    font-size: small;
+    text-align: center;
+    padding: 0;
+
+    }
 }
 
 #verde {
