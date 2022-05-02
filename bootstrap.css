@@ -1,5 +1,5 @@
 * {
-    font-size: 1em;
+    font-size: 3vh;
     font-family: 'Roboto', sans-serif;
 }
 nav div {
@@ -19,7 +19,7 @@ margin: 2px 5% 0 auto;
   }
 .card-img-overlay .card-title { 
 
-  font-size: 1.8em;
+  font-size: 5vh;
   font-weight: 800;
   display:block; 
   padding: 20% 10% 0 50%;
@@ -33,13 +33,12 @@ margin: 2px 5% 0 auto;
  text-align: right;
  }
 #titulo {
-  padding-top: 1em;
-  
+  padding-top: 3.5vh;
   text-align: center;
   font-size: small
 }
 #tituloCard {
-font-size: 3em;
+font-size: 5vh;
 font-weight: 700;
 }
 #oradores {
@@ -50,18 +49,43 @@ font-weight: 700;
   
   margin: 0 8em 0 8em;
 }
-
+@media screen and (max-width: 900px)  {
+ #cardsOradores {
+  margin: 1em;
+ }
+}
 @media screen and (max-width: 900px)  {
   .card-img-overlay .card-text {
-    
+    font-size: small;
     padding: 1%;
     text-align: center;
   }
 }
 @media screen and (max-width: 900px) {
   .card-img-overlay .card-title {
-    
+    font-size:medium;
     padding: 1%;
     text-align: center;
   }
+}
+
+#verde {
+ background-color: rgb(41, 168, 68);
+border-color: rgb(41, 168, 68);
+}
+
+#Yellow{
+  font-size: small;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(254,193,6);
+  border-color: rgb(254,193,6);
+}
+#Blue { 
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(23,162,185);
+  border-color: rgb(23,162,185);
+
 }
