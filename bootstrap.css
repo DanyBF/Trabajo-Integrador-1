@@ -1,5 +1,5 @@
 * {
-    font-size: 3vh;
+    font-size: 2.8vh;
     font-family: 'Roboto', sans-serif;
 }
 nav div {
@@ -28,82 +28,98 @@ margin: 2px 5% 0 auto;
 
 .card-img-overlay .card-text {  
 
-  display:block; 
+ display:block; 
  padding: 0 10% 30% 50%;
  text-align: right;
  }
 #titulo {
   padding-top: 3.5vh;
+  margin-bottom: 0;
   text-align: center;
-  font-size: small
+  font-size: small;
 }
 #tituloCard {
-font-size: 5vh;
-font-weight: 700;
+  font-size: 5vh;
+  font-weight: 700;
+
 }
+#tituloCard2 {
+  font-size: 5vh;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
 #oradores {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bolder;
 }
 #cardsOradores {
-  
-  margin: 0 8em 0 8em;
+  margin-left: 8em ;
+  margin-right: 8em;
 }
+
 @media screen and (max-width: 1080px)  {
     a.navbar-brand {
-      font-size: 2vh;
+      font-size: 3vh;
       text-align: center;
     }
-  }
-@media screen and (max-width: 1080px)  {
+
    #logo {
     width: 15%;
     height: 15%;
     }
-  }
-  @media screen and (max-width: 1080px)  {
-    button#list.navbar-toggler {
+
+    button.navbar-toggler {
      width: 10%;
      height: 10%;
      }
-   }
-@media screen and (max-width: 1080px)  {
+
  #cardsOradores {
-  margin: 1em;
+  margin-left: 4em ;
+  margin-right: 4em;
  }
-}
-@media screen and (max-width: 1080px)  {
-  .card-img-overlay .card-text {
-    font-size: small;
+ 
+ .card-img-overlay .card-text {
+    font-size: medium;
     padding: 0;
     text-align: center;
   }
-}
-@media screen and (max-width: 1080px) {
+
   .card-img-overlay .card-title {
     font-size:medium;
     padding: 0;
     text-align: center;
   }
-}
-@media screen and (max-width: 1080px) {
+
     button.btn.btn-outline-light {
     font-size: small;
     text-align: center;
     padding: 0;
     }
-}
-@media screen and (max-width: 1080px) {
+
     button.btn.btn-success {
     font-size: small;
     text-align: center;
     padding: 0;
-
     }
-}
+    .card-body {
+      font-size: medium;
+      padding: 0;
+    }
+    #imgOr {
+    max-width: 20em;
+    }
+ }
+ @media screen and (max-width: 770px)  {
+  #cardsOradores {
+    max-width: 20em;
+    align-content: center;
+   }
+  }
 
-#verde {
- background-color: rgb(41, 168, 68);
+
+#Green {
+background-color: rgb(41, 168, 68);
 border-color: rgb(41, 168, 68);
 }
 
@@ -113,6 +129,7 @@ border-color: rgb(41, 168, 68);
   color: black;
   background-color: rgb(254,193,6);
   border-color: rgb(254,193,6);
+  padding: 0em;
 }
 #Blue { 
   font-size: small;
@@ -120,7 +137,7 @@ border-color: rgb(41, 168, 68);
   color: white;
   background-color: rgb(23,162,185);
   border-color: rgb(23,162,185);
-
+  padding: 0em;
 }
 #Grey { 
   font-size: small;
@@ -128,7 +145,7 @@ border-color: rgb(41, 168, 68);
   color: white;
   background-color: rgb(109,116,126);
   border-color: rgb(109,116,126);
-
+  padding: 0em;
 }
 #Red { 
   font-size: small;
@@ -136,5 +153,33 @@ border-color: rgb(41, 168, 68);
   color: white;
   background-color: rgb(221,53,68);
   border-color: rgb(221,53,68);
+  padding: 0em;
+}
 
+#textOr{
+font-size: 2vh;
+line-height: 1.3rem;
+color: rgb(61, 61, 61);
+}
+#btnConoc {
+  font-size: small;
+  padding: 0.1;
+}
+#Titbsas{
+  font-size: 4vh;
+  font-weight: bold;
+}
+#textbsas{
+  font-size: 2.5vh;
+}
+#tfinal { 
+  text-align: center;
+  font-size: 2.5vh;
+}
+#hiper{
+  
+  font-size: 2.5vh;
+  border-bottom:1px dotted #000000;
+  text-decoration:none;
+  color: black;
 }
