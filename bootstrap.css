@@ -155,6 +155,10 @@ border-color: rgb(41, 168, 68);
   border-color: rgb(221,53,68);
   padding: 0em;
 }
+#verdeclaro {
+  background-color: rgb(150,201,62);
+  border-color: rgb(150,201,62);
+}
 
 #textOr{
 font-size: 2vh;
@@ -182,4 +186,16 @@ color: rgb(61, 61, 61);
   border-bottom:1px dotted #000000;
   text-decoration:none;
   color: black;
+}
+#datosn  {
+padding-left: 0;
+
+}
+#datosa {
+  padding-right: 0;
+}
+
+#textogris { 
+  color: gray;
+  font-size: small;
 }
