@@ -112,13 +112,27 @@ margin: 2px 5% 0 auto;
     #final {
       width: 80%;
     }
+   
+      a.nav-link{
+    font-size: 2vh;
+    padding: 0;
+    align-items: center;
+    width: 50%;
 
+    }
  }
+ @media screen and (max-width: 1220px)  {
+  ul.nav.nav-justified{
+    padding: 0 !important;
+     
+     }
+    }
  @media screen and (max-width: 770px)  {
   #cardsOradores {
     max-width: 20em;
     align-content: center;
    }
+   
   }
 
 
@@ -204,18 +218,14 @@ padding-left: 0;
   font-size: small;
 }
 
-ul.nav.justify-content-center{
+ul.nav.nav-justified{
   background-color: rgb(30,76,102);
   margin-top: 1em;
   height: 5em;
-  padding: 0 8em 0 8em;
-  margin: 0;
   align-items: center;
- justify-items: center;
-
+  padding: 0 8em 0 8em;
 }
 a.nav-link{
   color: aliceblue;
-
 
 }
