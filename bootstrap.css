@@ -109,6 +109,10 @@ margin: 2px 5% 0 auto;
     #imgOr {
     max-width: 20em;
     }
+    #final {
+      width: 80%;
+    }
+
  }
  @media screen and (max-width: 770px)  {
   #cardsOradores {
@@ -198,4 +202,20 @@ padding-left: 0;
 #textogris { 
   color: gray;
   font-size: small;
+}
+
+ul.nav.justify-content-center{
+  background-color: rgb(30,76,102);
+  margin-top: 1em;
+  height: 5em;
+  padding: 0 8em 0 8em;
+  margin: 0;
+  align-items: center;
+ justify-items: center;
+
+}
+a.nav-link{
+  color: aliceblue;
+
+
 }
