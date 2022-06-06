@@ -1,0 +1,164 @@
+* {
+    font-size: 2.8vh;
+    font-family: 'Roboto', sans-serif;
+}
+nav div {
+margin: 2px 5% 0 auto;
+}
+#logo {
+  margin-left: 5%;
+  }
+#linkverde {
+    
+  color: green
+  }
+
+
+
+@media screen and (max-width: 1080px)  {
+    a.navbar-brand {
+      font-size: 3vh;
+      text-align: center;
+    }
+
+   #logo {
+    width: 15%;
+    height: 15%;
+    }
+
+    button.navbar-toggler {
+     width: 10%;
+     height: 10%;
+     }
+
+     #final {
+      width: 80%;
+    
+    }
+    #boton1 {
+      padding-left: 0;
+      width: 50%;
+      
+      }
+      #boton2 {
+        padding-right: 0;
+        width: 50%;
+      }
+span#precio{
+  font-size: 3vh;
+}
+  }
+
+ @media screen and (max-width: 1024px)  {
+  .d-flex.justify-content-center.my-3 {
+ margin-left: 2rem;
+ margin-right: 2rem;    
+   }
+ .card-title {
+   font-size: medium;
+ }
+   .card-text {
+   font-size: medium;
+ } 
+ span {
+  font-size:medium;
+ }
+
+a.nav-link{
+font-size: small;
+padding: 0.5em;
+
+}
+#foot {
+  padding: 0rem;
+  height: 3em;
+}
+
+}
+
+.card {
+  margin: 1em 0.5em 0 0 ;
+  text-align: center;
+}
+
+
+.card-title {
+ font-weight: bold;  
+}
+span {
+  font-weight: bold;
+
+}
+
+ul.nav.justify-content-center{
+  background-color: rgb(30,76,102);
+  margin-top: 1em;
+  height: 5em;
+  padding: 0 8em 0 8em;
+  align-items: center;
+}
+a.nav-link{
+  color: aliceblue;
+
+}
+#azul {
+  border-color: rgb(0, 123, 255);
+  border-radius: 0pt;
+  border-width: 2px;
+}
+#verde {
+  border-color: rgb(23, 162, 184);
+  border-radius: 0pt;
+  border-width: 2px;
+}
+#amarillo {
+  border-color: rgb(255, 193, 7);
+  border-radius: 0pt;
+  border-width: 2px;
+}
+
+#venta {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: small;
+}
+#precio {
+  font-size: 5vh;
+  font-weight: 700;
+  padding: 2rem;
+
+}
+#datosn  {
+  padding-left: 0;
+  
+  }
+  #datosa {
+    padding-right: 0;
+  }
+  label {
+    margin-top: 0.5rem;
+    font-size: medium;
+  }
+  #totales{
+    margin-top: 1rem;
+    background-color: rgb(204, 229, 255);
+    font-size: medium;
+    color: rgb(0, 64, 165);
+  }
+  div.row.gap-2{
+    justify-content: center;
+  }
+  #btn{
+    border-color: rgb(151, 201, 62);
+    background-color: rgb(151, 201, 62);
+  }
+  #boton1 {
+  padding-left: 0;
+ 
+  
+  }
+  #boton2 {
+    padding-right: 0;
+   
+  }
