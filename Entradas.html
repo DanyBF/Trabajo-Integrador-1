@@ -103,12 +103,12 @@
 
 <div class="mb-3 row col-6 mx-auto" id="final">
   <div class="col" id="datosn">
-    <label for="Cantidad" class="form-label">Cantidad</label>
-  <input type="text" class="form-control form-control-sm" placeholder="Cantidad"id="cantidad" onchange="calcTotal()" required>
+    <label for="cantidad" class="form-label">Cantidad</label>
+  <input type="number" class="form-control form-control-sm" placeholder="Cantidad"id="cantidad" onchange="calcTotal()" required>
   </div>
   
   <div class="col" id="datosa">
-    <label for="Cantidad" class="form-label">Categoria</label>
+    <label for="categoria" class="form-label">Categoria</label>
     <select class="form-select form-select-sm" aria-label="categoria"id="categoria" onchange="calcTotal()">
       <option selected value="1">Estudiante</option>
       <option value="2">Trainee</option>
@@ -116,7 +116,7 @@
     </select>
   </div>
  
-  <input class="form-control form-control-lg" id="total" type="text" readonly class="form-control-plaintext" value="Total a pagar: $">
+  <input class="form-control form-control-lg" id="totales" type="text" readonly class="form-control-plaintext" value="Total a pagar: $">
   <div class="pagar p-3">
     Total a pagar: $ <span id="total">0</span>
   </div>
