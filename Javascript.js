@@ -19,3 +19,6 @@ function calcTotal() {
 
     document.getElementById("total").innerHTML=total;
 }
+function reset() {
+    document.getElementById("total").innerHTML=0;
+}
